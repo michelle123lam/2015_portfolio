@@ -344,8 +344,24 @@ a:focus {
     }
 }
 
-.about-row .image-block.profile-image {
-    background: url(../img/Profile.svg);
+.profile-image {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+ .profile-image {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-size: 100%;
+}
+
+@media (max-width: 480px) {
+    .profile-image {
+        width:60px;
+        height: 60px
+    }
 }
 
 .about-row .image-block.pencil-image {
