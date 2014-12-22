@@ -345,6 +345,10 @@ a:focus {
 }
 
 .about-row .image-block.profile-image {
+    background: url(../img/Profile.svg);
+}
+
+.about-row .image-block.pencil-image {
     background: url(../img/PencilSQ.svg);
 }
 
