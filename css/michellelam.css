@@ -427,6 +427,7 @@ a:focus {
 
 /* PORTFOLIO GRID section -----------------------------------------*/
 .portfolio-section {
+    border-top: 24px solid rgba(170,170,170,0.3);
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -498,7 +499,7 @@ a:focus {
     max-width: 400px;
     text-align: center;
     border-top: 2px solid rgba(170,170,170,0.2);
-    border-bottom: 2px solid rgba(170,170,170,0.2);
+    /*border-bottom: 2px solid rgba(170,170,170,0.2);*/
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
