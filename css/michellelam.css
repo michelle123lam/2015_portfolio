@@ -548,8 +548,9 @@ a:focus {
     box-shadow: none;
 }
 
+/* Background behind modal */
 .modal-content {
-    background-color: rgba(0,0, 0, 0.4);
+    background-color: rgba(0,0, 0, 0.6);
 }
 
 .modal-body {
@@ -599,7 +600,7 @@ a:focus {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #222;
+    background-color: #fff;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -609,7 +610,7 @@ a:focus {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #222;
+    background-color: #fff;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
