@@ -427,9 +427,21 @@ a:focus {
 
 /* PORTFOLIO GRID section -----------------------------------------*/
 .portfolio-section {
-    border-top: 24px solid rgba(170,170,170,0.3);
+    border-bottom: 150px solid rgba(0,0,0,0.5);
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.portfolio-buttons .btn {
+    background: 0;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.portfolio-buttons .btn:hover {
+    background: #fff;
+    border: 1px solid #fff;
+    color: #000;
 }
 
 @media(min-width:768px) {
@@ -609,7 +621,7 @@ a:focus {
 }
 
 /* CONTACT--------------------------------------------------------------- */
-.contact-section {
+.dark-section {
     width: 100%;
     color: #fff;
     background-color: rgba(0,0,0,0.5);
