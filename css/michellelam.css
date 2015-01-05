@@ -67,6 +67,10 @@ a:focus {
     background-color: #f7f7f7;
 }
 
+.section-heading {
+    padding-bottom: 10px;
+}
+
 /* NAVBAR ---------------------------------------------------------------*/
 .navbar-custom {
     margin-bottom: 0;
@@ -391,36 +395,10 @@ a:focus {
 }
 
 /* PORTFOLIO ----------------------------------------------------------- */
-.work-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(../img/blackBKG.png) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-#map {
-    width: 100%;
-    height: 200px;
-    margin-top: 100px;
-}
 
 @media(min-width:767px) {
     .content-section {
        padding-top: 100px;
-    }
-
-    .work-section {
-        padding: 100px 0;
-    }
-
-    #map {
-        height: 400px;
-        margin-top: 250px;
     }
 }
 
@@ -447,23 +425,12 @@ a:focus {
     background-color: #fff;
 }
 
-/* FEATURETTE portion of Portfolio */
-.row-featurette {
-    margin: 10px 0
-}
-
-.featurette-divider {
-    margin: 10px 0; /* Space out the Bootstrap <hr> more */
-}
-
-/* Thin out the marketing headings */
-.featurette-heading {
-    font-weight: 300;
-    line-height: 1;
-}
-
-
 /* PORTFOLIO GRID section -----------------------------------------*/
+.portfolio-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 @media(min-width:768px) {
     section {
         padding: 150px 0;
