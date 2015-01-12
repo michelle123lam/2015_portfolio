@@ -650,6 +650,14 @@ a:focus {
     padding-bottom: 150px;
 }
 
+.dark-section a {
+    color: #fff;
+}
+
+.dark-section a:hover {
+    color: rgba(0,0,0,0.5);
+}
+
 ul.banner-social-buttons {
     margin-top: 0;
 }
