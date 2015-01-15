@@ -435,9 +435,12 @@ a:focus {
 
 /* PORTFOLIO GRID section -----------------------------------------*/
 .portfolio-section {
-    border-bottom: 150px solid rgb(108,108,108);
     padding-top: 50px;
     padding-bottom: 20px;
+}
+
+.portfolio-later-rows {
+    border-top: 150px solid rgb(126,126,126);
 }
 
 .portfolio-buttons .btn {
@@ -642,12 +645,11 @@ a:focus {
 .dark-section {
     width: 100%;
     color: #fff;
-    background-color: rgb(108,108,108);
+    background-color: rgb(126,126,126);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    padding-bottom: 150px;
 }
 
 .dark-section a {
