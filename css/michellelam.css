@@ -179,6 +179,13 @@ a:focus {
     outline: 0
 }
 
+/* Dropdown menu content*/
+@media(min-width:767px) {
+    .navbar-main-collapse {
+        visibility: hidden;
+    }
+}
+
 /* INTRO ---------------------------------------------------------------*/
 .intro {
     display: table;
